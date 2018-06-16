@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/text_item_approaches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Hi!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp" />
+
+    <CheckBox
+        android:id="@+id/ItemCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="12dp"
+        android:checked="false"
+        android:gravity="right"
+        android:scaleX="1.55"
+        android:scaleY="1.55"
+        android:theme="@style/MyCheckBox" />
+
+</FrameLayout>

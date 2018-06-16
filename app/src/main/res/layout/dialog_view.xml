@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="  What do you want doing,bro?  "
+        android:textColor="@color/colorTextDialog"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/Exercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Exercise"
+        android:inputType="text"
+        android:shadowColor="@color/colorTextDialog" />
+
+    <EditText
+        android:id="@+id/Approaches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="NumbersApproaches"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Quantity through a space"
+        android:inputType="number|text" />
+
+    <Button
+        android:id="@+id/btnLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Load" />
+
+</LinearLayout>
